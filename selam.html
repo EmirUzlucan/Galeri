@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaylar</title>
+    <link rel="stylesheet" href="NETFLİX.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="pinning_header">
+            <nav class="nav">
+                <div class="logo_div">
+                    <img class="logo_img" src="NETFLİX LOGO PNG.png">
+                </div>
+                <ul class="nav_items">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="fotograflar.html">Fotoğraflar</a></li>
+                    <li><a href="videolar.html">Videolar</a></li>
+                    <li><a class="active" href="selam.html">İçerik Ekleme</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="form_conteiner">
+                <form class="form">
+                    <div class="left_form">
+                        <div class="yıl_form left_form_div">
+                            <label for="yıl">Yıl</label>
+                            <div class="yıl_input_conteiner input_conteiner">
+                                <input type="number" class="yıl_input" required>
+                            </div>
+                        </div>
+                        <div class="konu_form left_form_div">
+                            <label for="konu">Konu</label>
+                            <div class="konu_input_conteiner input_conteiner">
+                                <input type="text" class="konu_input" placeholder="düğün,trabzon,piknik..." required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_form">
+                        <div class="file_form">
+                            <div class="file_input_conteiner">
+                                <input type="file" id="file_upload" class="file_input" multiple required>
+                                <label for="file_upload" class="custom-file-upload">
+                                    Dosya Seç
+                                </label>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" value="yükle">yükle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="NETFLİX.js"></script>
+</body>
+
+</html>
